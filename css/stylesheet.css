@@ -1,11 +1,13 @@
 body{
-  font-family: sans-serif; 
+  font-family: "Times New Roman", Times, serif; 
   font-size:110%;
   background-color: #FCF7F8;
 }
 
 header {
   text-align: center;
+  background-color:  #1c3ba1;
+  padding-top: 20px;
 }
 
 footer {
@@ -14,8 +16,40 @@ footer {
 }
 
 h2{
-  color: #ffc;
-  background-color: #009;
+  color: white;
+  /* background-color: blue; */
+  /* font-size: 40px;
+  margin:200px;
+  padding:10px; */
+  /* border-style:dashed;
+  border-color: green;
+  border-width: 30px; */
+  
+
+}
+#sidebar{
+  background-color:#4b5320;
+  padding-bottom:  20px; 
+  width: 150px;
+}
+
+.contents{
+  
 
 }
 
+.profile{
+ border-radius: 50%;
+ width:20%;
+ height:20%;
+ border: 3px solid rgb(179, 255, 0);
+
+}
+.icons{
+  width: 3rem;
+  margin: 2rem;
+  height: auto;
+  border-radius: 250px;
+
+
+}
